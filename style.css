@@ -1,11 +1,10 @@
-.btn{
-    background-color: rgba(0, 255, 157, 0.945);
-    border-radius: 100;
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    margin: 5px;
+.main{
+    padding: 50px;
+    background-image: linear-gradient(to bottom right,rgb(0, 183, 255), rgb(0, 38, 255));
+	background-attachment: fixed;
+    object-fit: cover;
+    min-width:100%;
+    min-height: 100%;
 }
 
 .box{
@@ -13,6 +12,14 @@
     margin: 5px;
 }
 
-.main{
-    padding: 50px;
+.btn{
+    background-color: rgba(0, 255, 157, 0.945);    
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.result{
+    font-size: 60px;
 }
