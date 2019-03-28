@@ -1,5 +1,5 @@
 
-function myFunction() {
+function submitAction() {
     var num1, num2, num3;
     // Get the values of the input fields
     num1 = document.getElementById("num1").value;
@@ -12,7 +12,6 @@ function myFunction() {
     array = [num1, num2, num3].sort(function(a,b){
         return a - b;
     });
-    array.toString();
 
     //assign result to id for display
     document.getElementById("result").innerHTML = array;
